@@ -31,9 +31,9 @@
 * `/VLSI_8bit_CPU` - Vivado 專案的主資料夾。
     * `/VLSI_8bit_CPU.srcs/sources_1/` - **RTL 原始碼**
         * `CPU.v`: CPU 頂層模組。
-        * `ALU.v`: 算術邏輯單元。
+        * `ALU.v, Control.v, Registers.v: CPU 主要元件。
         * `Control.v`: 控制單元。
-        * `[請繼續說明你的重要 .v 檔案...]`
+        * `uart_tx.v: UART 序列埠傳輸模組
     * `/VLSI_8bit_CPU.srcs/constrs_1/` - **FPGA 腳位約束檔 (.xdc)**。
     * `/VLSI_8bit_CPU.srcs/sim_1/` - **Testbench 模擬測試檔**。
 * `str2binASCII.py` - 產生測資
