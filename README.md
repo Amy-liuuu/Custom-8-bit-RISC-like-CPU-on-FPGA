@@ -12,7 +12,7 @@
 本 CPU 的 Datapath 主要由以下幾個關鍵模組組成：
 * **Program Counter, PC**: 負責指向下一個要執行的指令位址。
 * **Instruction Memory**: 儲存 CPU 要執行的指令。
-* **Register File**: 包含 [請填入數量，例如: 8] 個 8 位元的通用暫存器。
+* **Register File**:  8 位元的通用暫存器。
 * **ALU**: 負責執行算術 (加、減) 與邏輯 (AND, OR, NOT) 運算。
 * **Data Memory**: 負責儲存與讀取資料。
 * **Control Unit**: 根據指令的 opcode 解碼並產生對應的控制信號。
@@ -39,8 +39,8 @@
 * `str2binASCII.py` - 產生測資
 * `.gitignore` - 用於忽略 Vivado 產生的暫存檔。
 
-## 使用工具 (Tools Used)
+## Tools Used
 
-* **設計與模擬**: Xilinx Vivado 20XX.X
+* **設計與模擬**: Xilinx Vivado
 * **硬體描述語言**: Verilog
-* **FPGA 開發版**: [請填入你的 FPGA 型號]
+* **FPGA 開發版**: Arty A7-35t
