@@ -1,0 +1,15 @@
+# Vivado temporary files
+.Xil/
+*.jou
+*.log
+*.str
+webtalk*.html
+webtalk*.xml
+
+# Vivado generated directories
+*.cache/
+*.hw/
+*.impl/
+*.runs/
+*.sdk/
+*.sim/
